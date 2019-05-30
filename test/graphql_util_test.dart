@@ -1,10 +1,9 @@
 import 'dart:convert';
-import 'dart:io' show File, Platform;
-import 'dart:typed_data' show Uint8List;
+// import 'dart:io' show File, Platform;
+// import 'dart:typed_data' show Uint8List;
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:path/path.dart' show dirname, join;
 import 'package:http/http.dart' as http;
 
 import 'package:graphql_util/graphql_util.dart';

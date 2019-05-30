@@ -1,7 +1,7 @@
 name: graphql_util
 description: A Flutter plugin For Simple Use For GraphqlUtil
 version: 0.0.1
-author: hz
+author: hz <805104533@qq.com>
 homepage: https://github.com/huang12zheng/graphql_util
 
 environment:
@@ -29,6 +29,7 @@ flutter:
   plugin:
     androidPackage: com.reflectschool.graphql_util
     pluginClass: GraphqlUtilPlugin
+    http: ^0.12.0+2
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
